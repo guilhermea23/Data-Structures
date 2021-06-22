@@ -1,2 +1,2 @@
 # DataStructures
-Exercises done in Data Structures using the Python language 👨🏽‍💻
+Exercises done in Data Structures using Python language 👨🏽‍💻
