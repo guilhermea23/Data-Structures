@@ -1,1 +1,1 @@
-Repository with exercises solutions
+# Exercises done with Python.
