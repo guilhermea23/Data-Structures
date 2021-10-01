@@ -1,4 +1,5 @@
-<h1 align="center" style="font-size:36px; font-family:Poppins;" > Music Player </h1>
+<script src="https://kit.fontawesome.com/d914ec8c00.js" crossorigin="anonymous"></script>
+<h1 align="center" style="font-size:36px; font-family:Poppins;" ><i class="fas fa-play-circle" style="cursor:pointer;"></i> Music Player </h1>
 <p>Todo rebelde tem sua lista de músicas para lidar com os momentos de tensão nos preparativos antes de um ataque ao Império. O bom funcionamento deste é essencial para a vitória, mas o estagiário wookie acabou apagando a licença para uso do tocador oficial da Aliança, e você se voluntariou para criar uma nova versão com a GPL3!</p>
 
 <p>Uma análise mais precisa feita por você indicou que os codecs de wav, mp2, mp3, ogg e outros formatos ainda estavam disponíveis no equipamento de áudio intergalático. Portanto, você não deve se preocupar com a reprodução das músicas em seus respectivos formatos mas sim em implementar o comportamento de um tocador - manipular a lista de músicas, adicionar e remover músicas da lista e etc.</p>
@@ -36,31 +37,33 @@
 
 ```  
 <br/>
-A comunicação com o sistema é simples, as funcionalidades são apresentadas como descritas acima e, sempre que uma música termina, o codec responsável por reproduzir a música envia uma mensagem <strong><i color=#ff1111;>ended</i></strong>  indicando que a reprodução dela terminou (obviamente, apenas uma música que estava sendo tocada pode terminar). Quando uma música termina, a próxima inicia imediatamente, e não é mais possível desfazer as instruções anteriores. O sistema recomeça a tocar a lista do início caso a última música termine e a batalha não tenha começado. 
+A comunicação com o sistema é simples, as funcionalidades são apresentadas como descritas acima e, sempre que uma música termina, o codec responsável por reproduzir a música envia uma mensagem <strong>ended</strong>  indicando que a reprodução dela terminou (obviamente, apenas uma música que estava sendo tocada pode terminar). Quando uma música termina, a próxima inicia imediatamente, e não é mais possível desfazer as instruções anteriores. O sistema recomeça a tocar a lista do início caso a última música termine e a batalha não tenha começado. 
 <br/>
 <br/>
 <br/>
 <hr>
-<h2 align="center">Entrada</h2>
+<h2 align="center"><i class="fas fa-door-open"></i> Entrada</h2>
 <hr>
 <p>A entrada consiste de uma série de instruções, conforme descritas acima. É garantido que todo id é único e composto apenas por uma palavra (sem espaço). A entrada sempre termina com a instrução fight.</p>
 <br/>
 <hr>
-<h2 align="center"> Saída</h2>
+<h2 align="center"><i class="fas fa-door-closed"></i> Saída</h2>
 <hr>
 <p>A saída consiste na apresentação das informações quando solicitadas ( instruções list e current). Termine a execução apresentando a mensagem: "Jedi Wagner, assuma o comando!".</p>
 
 <br/>
 <br/>
 <br/>
-<h3 align="center" ><strong>Exemplos:</strong></h3>
+<div style="text-align:center; font-weigth: bold; font-size:2em;">
+<label>Exemplos</label>
+</div>
 <table border=4px solid #121212;>
 <tbody>
-<tr boder=1px solid #121212>
-<th>Input</th>
-<th>Result</th>
+<tr boder=4px solid #121212>
+<th border=4px solid #121212>Input</th>
+<th border=4px solid #121212>Output</th>
 </tr>
-<tr boder=1px solid #121212>
+<tr boder=4px solid #121212>
 <td>
 add OyeComoVa<br/>
 list<br/>
@@ -87,10 +90,10 @@ OyeComoVa<br/>
 OyeComoVa,SambaPaTi<br/>
 Jedi Wagner, assuma o comando!
 </td>
-<tr boder=1px solid #121212>
+<tr boder=4px solid #121212>
 
 
-<tr boder=1px solid #121212>
+<tr boder=4px solid #121212>
 <td>
 add NaoExisteAmorEmSP<br/>
 add Subirusdoistiozin<br/>
@@ -108,7 +111,7 @@ Jedi Wagner, assuma o comando!
 </tr>
 
 
-<tr boder=1px solid #121212>
+<tr boder=4px solid #121212>
 <td>
 add Retrovisor<br/>
 add Brejense<br/>
@@ -129,7 +132,7 @@ Jedi Wagner, assuma o comando!
 </td>
 </tr>
 
-<tr boder=1px solid #121212>
+<tr boder=4px solid #121212>
 <td>
 add MunRa<br/>
 add NoSleepTillBrooklyn<br/>
@@ -154,7 +157,7 @@ Jedi Wagner, assuma o comando!
 </td>
 </tr>
 
-<tr boder=1px solid #121212>
+<tr boder=4px solid #121212>
 <td>
 add ApesarDeVoce<br/>
 add Calice<br/>
@@ -171,7 +174,7 @@ Jedi Wagner, assuma o comando!
 </td>
 </tr>
 
-<tr boder=1px solid #121212>
+<tr boder=4px solid #121212>
 <td>
 add ApesarDeVoce<br/>
 add Calice<br/>
