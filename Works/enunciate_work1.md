@@ -1,4 +1,4 @@
-<script src="https://kit.fontawesome.com/d914ec8c00.js" crossorigin="anonymous"></script>
+
 <h1 align="center" style="font-size:36px; font-family:Poppins;" ><i class="fas fa-play-circle" style="cursor:pointer;"></i> Music Player </h1>
 <p>Todo rebelde tem sua lista de músicas para lidar com os momentos de tensão nos preparativos antes de um ataque ao Império. O bom funcionamento deste é essencial para a vitória, mas o estagiário wookie acabou apagando a licença para uso do tocador oficial da Aliança, e você se voluntariou para criar uma nova versão com a GPL3!</p>
 
