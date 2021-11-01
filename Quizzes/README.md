@@ -1,1 +1,0 @@
-# Exercises done with Python.
